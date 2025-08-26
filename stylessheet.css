@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.ss{
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    gap: 1.5em;
+    background-color: white;
+    padding: 30px;
+    border-right: 4px solid grey;
+    border-left: 4px solid grey;
+    text-align: center;
+    width: 20%;
+}
+
+.logo{
+    background-color: blue;
+    border-radius: 100%;
+    padding: 10px;
+    color: white;
+}
+
+.dd{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0 ;
+}
+
+.input-format{
+    border-radius: 5%;
+    border: solid gray 3px;
+    width: 100%;
+    height: 2em;
+}
+
+.btn{
+    width: 100%;
+    height:3em;
+    background-color: blue;
+    border-radius: 10%;
+    font-size: 1em;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: blue;
+    border-color: blue;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#forgot-password{
+    color: blue;
+}
+
+.forgot-password:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.google{
+    margin: 10px 0;
+    width: 100%;
+    border: solid gray;
+    padding: 0.4em;
+
+}
+
+#sign-up{
+    color: blue;
+}
+
+/* sign up page additional styling*/
+div .names{
+    display: flex;
+    flex-direction: row;
+    gap: 0.8em;
+}
+
+.names :placeholder-shown{
+    text-align: center;
+}
+
+.password{
+    display: flex;
+    width: 100%;
+    gap: 0.8em;
+}
+
+.pssd{
+    flex-grow: 1;
+}
+
+input{
+    text-align: center;
+}
+
+@media (min-width: 430px){
+    .sign-in{
+        width: 100%;
+        border: none;
+    }
+}
